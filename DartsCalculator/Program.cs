@@ -49,7 +49,7 @@
                 Console.Write($"Enter Name of Player {i + 1}: ");
                 string? name = Console.ReadLine();
                 if (string.IsNullOrEmpty(name))
-                    name = "Player " + i;
+                    name = "Player " + i + 1;
                 players.Add(new Player(name, 501));
             }
             bool gameWon = false;
